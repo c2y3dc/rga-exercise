@@ -75,9 +75,43 @@ body{
   padding-bottom: 20px;
 }
 
-.exhibit-container > img {
+.exhibit {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+}
+.exhibit > img {
   width: 400px;
   margin: 5px;
+}
+
+.exhibit > h2 {
+  color: white;
+  text-align:left;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+.exhibit > span {
+  text-align: left;
+  display: absolute;
+}
+
+#explore {
+  font-size: 15px;
+  font-weight: 100;
+  color: dodgerblue;
+  top: 365px;
+}
+
+.exhibit > object {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 378px;
+  left: 122px;
+  display: inline;
 }
 
 .share-container{
