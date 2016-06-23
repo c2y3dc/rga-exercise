@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.844" height="53" viewBox="0 0 23.844 53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="facebook" class="cls-1" d="M901.638,3181.28h5.079V3173h-6.225v0.04c-9.74.34-11.74,5.81-11.914,11.55H888.56v6.65h-4.975v8.27h4.975V3226h9.946v-26.49h7.461l1.475-8.27h-8.936v-6C898.506,3183.31,899.8,3181.28,901.638,3181.28Z" transform="translate(-883.594 -3173)"/>
+</svg>

@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+}
+
+#header {
+  background: #ffffff;
+  position: relative;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1px 3px 2px #dbdbdb
+}
+
+#logo object{
+  width: 55px;
+  margin-left: 25.5px;
+  margin-top: 8.5px;
+  margin-bottom: 6.5px;
+}
+
+.writing-container {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+#handwritten{
+  width: 237px;
+  margin: 0 auto;
+}
+
+.copy-container{
+  position: relative;
+  top: 120px;
+}
+
+.copy{
+  position: relative;
+  width: 391.5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copy > p {
+  color: #d8d8d8;
+  font-size: 14px;
+}
+
+.hero-container{
+  position: relative;
+  top: 150px;
+  padding-bottom: 100px;
+}
+
+.hero-container > img{
+  width: 100%;
+}
+
+.found-container{
+  position: relative;
+  top:80px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.found-container > img{
+  width: 358px;
+  margin: 0 auto;
+}
+
+.exhibit-container{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.exhibit-container > img {
+  width: 400px;
+  margin: 5px;
+}
+
+.share-container{
+  position: relative;
+  background-color: #448bff;
+  padding-bottom: 30px
+}
+
+#share-logos{
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#share-logos > object{
+  height: 25px;
+  margin: 30px;
+}
+
+footer{
+  position: relative;
+}
+
+footer > img{
+  width: 100%;
+}

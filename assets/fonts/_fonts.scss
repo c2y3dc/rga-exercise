@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Matryoshka';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Matryoshka'),
+       url('/doodle4google/2015/fonts/denne-sketchy-webfont.eot?#iefix') format('embedded-opentype'),
+       url(/doodle4google/2015/fonts/matryoshka.woff) format('woff'),
+       url(/doodle4google/2015/fonts/matryoshka.woff2) format('woff2'),
+       url(/doodle4google/2015/fonts/matryoshka.ttf) format('truetype'),
+       url('/doodle4google/2015/fonts/matryoshka.svg#matryoshka') format('svg');
+
+}
+
+@font-face {
+  font-family: 'Denne Sketchy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/doodle4google/2015/fonts/denne-sketchy-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/doodle4google/2015/fonts/denne-sketchy-webfont.woff2') format('woff2'),
+       url('/doodle4google/2015/fonts/denne-sketchy-webfont.woff') format('woff'),
+       url('/doodle4google/2015/fonts/denne-sketchy-webfont.ttf') format('truetype'),
+       url('/doodle4google/2015/fonts/denne-sketchy-webfont.svg#denne__sketchyregular') format('svg');
+}
+
+@font-face {
+  font-family: 'DenneMissing';
+  src: local('Matryoshka'),
+       url(/doodle4google/2015/fonts/matryoshka.woff) format('woff'),
+       local('Markerfelt'),
+       local('Palatino'),
+       local('Book Antiqua');
+  unicode-range: U+"+"+24, U+"+"+7C;
+}
