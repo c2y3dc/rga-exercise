@@ -23,6 +23,7 @@
 
 body{
   margin: 0;
+  box-sizing: border-box;
 }
 
 .videoWrapper {
@@ -173,16 +174,52 @@ body{
   }
 }
 
-footer{
+.footer-container{
   height: 125px;
-  width: 100%;
-  background-color: #f7f7f7;
 }
 
-.footer-container{
-  margin: 60px;
+.left-footer{
+  display: inline-block;
+  position: relative;
+  padding: 60px;
   & > div{
-  display: inline;
+    border-width: 0.2px;
+    border-style: solid;
+    color: grey;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
   }
 }
+.bubble{
+  margin-right: 12px;
+}
+
+.help{
+  margin-right:32px;
+}
+
+.terms{
+  margin-right: 40px;
+}
+.language{
+  margin-right: 12px;
+}
+
+.right-footer{
+  position: relative;
+  display: inline-block;
+  padding: 60px;
+  right: 0px;
+  & > div{
+    border-width: 0.2px;
+    border-style: solid;
+    color: grey;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
 
