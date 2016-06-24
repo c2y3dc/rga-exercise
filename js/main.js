@@ -30,6 +30,10 @@ angular.module('app', [])
 
     EC.showVideo = function () {
       EC.isVideoShowing = true;
-    }
+    };
+
+    EC.hideVideo = function () {
+      EC.isVideoShowing = false;
+    };
 
   });

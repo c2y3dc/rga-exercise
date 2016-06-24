@@ -5,6 +5,7 @@
   <object data="assets/circle-arrow.svg" type="image/svg+xml"></object>
 </div>
 <div class="modal-container" ng-show="EC.isVideoShowing">
+  <div class="close-button" ng-click="EC.hideVideo()">X</div>
   <div class="modal">
     <iframe
       title="{{ videoTitle }}"
