@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Matryoshka'),
-       url('../../assets/fonts/denne-sketchy-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../assets/fonts/matryoshka.eot?#iefix') format('embedded-opentype'),
        url(../../assets/fonts/matryoshka.woff) format('woff'),
        url(../../assets/fonts/matryoshka.woff2) format('woff2'),
        url(../../assets/fonts/matryoshka.ttf) format('truetype'),
@@ -19,16 +19,6 @@
        url('../../assets/fonts/denne-sketchy-webfont.woff') format('woff'),
        url('../../assets/fonts/denne-sketchy-webfont.ttf') format('truetype'),
        url('../../assets/fonts/denne-sketchy-webfont.svg#denne__sketchyregular') format('svg');
-}
-
-@font-face {
-  font-family: 'DenneMissing';
-  src: local('Matryoshka'),
-       url(../../assets/fonts/matryoshka.woff) format('woff'),
-       local('Markerfelt'),
-       local('Palatino'),
-       local('Book Antiqua');
-  unicode-range: U+"+"+24, U+"+"+7C;
 }
 
 body{
@@ -90,7 +80,8 @@ body{
 
 .copy {
   font-size: 15px;
-  font-family: 'Roboto-Light';
+  font-family: 'Roboto';
+  font-weight: 300;
   position: relative;
   width: 402px;
   margin: 0 auto;
@@ -132,7 +123,8 @@ body{
   }
 
   & > span {
-    font-family: "RobotoSlab-Light";
+    font-family: 'Roboto Slab';
+    font-weight: 300;
     font-size: 27.5px;
     color: white;
     text-align:left;
@@ -152,9 +144,9 @@ body{
 }
 
 #explore {
-  font-family: "Roboto-Medium";
+  font-family: 'Roboto';
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
   color: rgb(66,133,244);
   top: 365px;
 }
