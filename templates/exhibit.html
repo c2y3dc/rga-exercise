@@ -1,8 +1,12 @@
 <div class="exhibit" ng-click="EC.showVideo()">
   <img ng-src="assets/{{ imageName }}.png" alt="Exhibit Image">
-  <span ng-transclude></span>
-  <span id="explore">EXPLORE</span>
-  <object data="assets/circle-arrow.svg" type="image/svg+xml"></object>
+  <div class="caption">
+    <div class="title" ng-transclude></div>
+    <div class="explore">
+      <span>EXPLORE</span>
+      <object class="explore-arrow" data="assets/circle-arrow.svg" type="image/svg+xml"></object>
+    </div>
+  </div>
 </div>
 <div class="modal-container" ng-if="EC.isVideoShowing">
   <div class="close-button" ng-click="EC.hideVideo()">X</div>

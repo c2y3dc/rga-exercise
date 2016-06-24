@@ -74,8 +74,6 @@ body{
 
 
 .copy-container{
-/*  position: relative;
-  top: 60px;*/
   margin-top: 15px;
 }
 
@@ -96,13 +94,8 @@ body{
 }
 
 .found-container{
-/*  position: relative;
-  top:65px;
-*/
   margin-top: 45px;  
   text-align: center;
-  /*padding-bottom: 100px;*/
-
   & > img{
     width: 358px;
     margin: 0 auto;
@@ -110,8 +103,6 @@ body{
 }
 
 .exhibit-container {
-/*  position: relative;
-  top: 10px;*/
   margin-top:35px;
   text-align: center;
   padding-bottom: 20px;
@@ -161,35 +152,36 @@ body{
     width: 400px;
   }
 
-  & > span {
-    font-family: 'Roboto Slab';
-    font-weight: 300;
-    font-size: 27.5px;
-    color: white;
+  .caption{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 50px;
+    padding-bottom: 35px;
     text-align:left;
-    position: absolute;
-    top: 250px;
-    left: 50px;
-  }
 
-  & > object {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 368px;
-    left: 122px;
-    display: inline;
+    & > .title {
+      font-family: 'Roboto Slab';
+      font-weight: 300;
+      font-size: 27.5px;
+      color: white;
+      margin-bottom: 25px;
+    }
+
+    .explore-arrow {
+      width: 15px;
+      height: 15px;
+      padding-right: 5px ;
+    }  
+
+    .explore {
+      font-family: 'Roboto';
+      font-size: 15px;
+      font-weight: 400;
+      color: rgb(66,133,244);
+    }
   }
 }
-
-#explore {
-  font-family: 'Roboto';
-  font-size: 15px;
-  font-weight: 400;
-  color: rgb(66,133,244);
-  top: 365px;
-}
-
 
 .share-container {
   position: relative;
@@ -221,16 +213,26 @@ body{
   position: relative;
   padding: 50px;
   & > div{
-    border-width: 0.2px;
-    border-style: solid;
-    color: grey;
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    float: left;
+    line-height: 1.8em;
   }
 }
 .bubble{
   margin-right: 12px;
+  width: 25px;
+  height: 25px;
+  border-width: 0.2px;
+  border-style: solid;
+  color: grey;
+}
+
+.arrow{
+  width: 25px;
+  height: 25px;
+  border-width: 0.2px;
+  border-style: solid;
+  color: grey;
 }
 
 .help{
@@ -249,17 +251,23 @@ body{
   position: relative;
   display: inline-block;
   padding: 50px;
-/*  right: 0px;*/
   float: right;
-  & > div{
+  line-height: 1.8em;
+  & .social-media-logo {
     border-width: 0.2px;
     border-style: solid;
     color: grey;
     display: inline-block;
+    line-height: 0;
     width: 25px;
     height: 25px;
   }
 }
 
+@media only screen and (max-width: 479px) and (min-width: 0px) {
+  .exhibit{
+    margin: 0;
+  }
+}
 
 
