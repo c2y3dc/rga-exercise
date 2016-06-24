@@ -52,7 +52,6 @@ body{
 #header {
   background: #ffffff;
   position: relative;
-  top: 0;
   width: 100%;
   box-shadow: 0 1px 3px 2px #dbdbdb
 }
@@ -66,8 +65,7 @@ body{
 }
 
 .writing-container {
-  position: relative;
-  top: 50px;
+  margin-top: 40px;
   text-align: center;
 
   & > span{
@@ -85,8 +83,9 @@ body{
 
 
 .copy-container{
-  position: relative;
-  top: 60px;
+/*  position: relative;
+  top: 60px;*/
+  margin-top: 15px;
 }
 
 .copy {
@@ -101,13 +100,7 @@ body{
 }
 
 .hero-container{
-  position: relative;
-  top: 110px;
-  padding-bottom: 100px;
-
-  & > img{
-    width: 100%;
-  }
+  margin-top: 40px;
 }
 
 .found-container{
@@ -187,6 +180,7 @@ body{
 
 footer{
   position: relative;
+  height: 125px;
 
   & > img{
     width: 100%;
