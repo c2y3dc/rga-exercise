@@ -264,9 +264,37 @@ body{
   }
 }
 
+.back-container{
+  & > div {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 479px) and (min-width: 0px) {
   .exhibit{
     margin: 0;
+  }
+  .right-footer{
+    float: left;
+    .follow{
+      display: none;
+    }
+  }
+  .back-container{
+    height: 70px;
+    padding: 25px;
+    line-height: 25px;
+    .back-to-top{
+      color:#9a9a9a;
+      padding: 20px;
+      float:right;
+      display: inline;
+      /*line-height: 25px;*/
+      & > div{
+        line-height: 1.8em;
+        display: inline-block;
+      }
+    }
   }
 }
 
