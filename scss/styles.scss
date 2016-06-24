@@ -95,10 +95,12 @@ body{
 }
 
 .found-container{
-  position: relative;
+/*  position: relative;
   top:65px;
+*/
+  margin-top: 45px;  
   text-align: center;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
 
   & > img{
     width: 358px;
@@ -107,8 +109,9 @@ body{
 }
 
 .exhibit-container {
-  position: relative;
-  top: 10px;
+/*  position: relative;
+  top: 10px;*/
+  margin-top:35px;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -171,11 +174,15 @@ body{
 }
 
 footer{
-  margin: 60px;
   height: 125px;
   width: 100%;
+  background-color: #f7f7f7;
+}
+
+.footer-container{
+  margin: 60px;
   & > div{
-    display: inline;
+  display: inline;
   }
 }
 
