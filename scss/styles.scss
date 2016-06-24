@@ -40,13 +40,13 @@ body{
   padding-bottom: 54.3%; /* 16:9 */
   padding-top: 25px;
   height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 #header {
@@ -69,26 +69,27 @@ body{
   position: relative;
   top: 50px;
   text-align: center;
+
+  & > span{
+    display: block;
+    font-family: "DenneSketchy";
+    font-size: 84px;
+  }
+
+  & > object {
+    width: 200px;
+    height: 29px;
+    margin: 0 auto;
+  }
 }
 
-.writing-container > span{
-  display: block;
-  font-family: "DenneSketchy";
-  font-size: 84px;
-}
-
-.writing-container > object {
-  width: 200px;
-  height: 29px;
-  margin: 0 auto;
-}
 
 .copy-container{
   position: relative;
   top: 60px;
 }
 
-.copy{
+.copy {
   font-size: 15px;
   font-family: 'Roboto-Light';
   position: relative;
@@ -103,10 +104,10 @@ body{
   position: relative;
   top: 110px;
   padding-bottom: 100px;
-}
 
-.hero-container > img{
-  width: 100%;
+  & > img{
+    width: 100%;
+  }
 }
 
 .found-container{
@@ -114,14 +115,14 @@ body{
   top:65px;
   text-align: center;
   padding-bottom: 100px;
+
+  & > img{
+    width: 358px;
+    margin: 0 auto;
+  }
 }
 
-.found-container > img{
-  width: 358px;
-  margin: 0 auto;
-}
-
-.exhibit-container{
+.exhibit-container {
   position: relative;
   top: 10px;
   text-align: center;
@@ -133,19 +134,28 @@ body{
   position: relative;
   width: 400px;
   margin: 8px;
-}
-.exhibit > img {
-  width: 400px;
-}
+  & > img {
+    width: 400px;
+  }
 
-.exhibit > span {
-  font-family: "RobotoSlab-Light";
-  font-size: 27.5px;
-  color: white;
-  text-align:left;
-  position: absolute;
-  top: 250px;
-  left: 50px;
+  & > span {
+    font-family: "RobotoSlab-Light";
+    font-size: 27.5px;
+    color: white;
+    text-align:left;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+  }
+
+  & > object {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 368px;
+    left: 122px;
+    display: inline;
+  }
 }
 
 #explore {
@@ -156,37 +166,30 @@ body{
   top: 365px;
 }
 
-.exhibit > object {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 368px;
-  left: 122px;
-  display: inline;
-}
 
-.share-container{
+.share-container {
   position: relative;
   background-color: #448bff;
   padding-bottom: 30px
 }
 
-#share-logos{
+#share-logos {
   width: 400px;
   text-align: center;
   margin: 0 auto;
   padding-top: 30px;
-}
 
-#share-logos > object{
-  height: 25px;
-  margin: 30px;
+  & > object{
+    height: 25px;
+    margin: 30px;
+  }
 }
 
 footer{
   position: relative;
+
+  & > img{
+    width: 100%;
+  }
 }
 
-footer > img{
-  width: 100%;
-}
