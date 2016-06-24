@@ -25,8 +25,12 @@ angular.module('app', [])
   })
   .controller('ExhibitController', function ($scope, $sce) {
     var EC = this;
+
     EC.isVideoShowing = false;
-    EC.youtubeVideoURL = $sce.trustAsResourceUrl("http://www.youtube.com/embed/" + $scope.youtubeId);
+    EC.youtubeVideoURL = "http://www.youtube.com/embed/" + $scope.youtubeId
+    EC.trustedYoutubeVideoURL = $sce.trustAsResourceUrl(EC.youtubeVideoURL);
+
+    console.log(EC.youtubeVideoURL)
 
     EC.showVideo = function () {
       EC.isVideoShowing = true;
