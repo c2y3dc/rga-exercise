@@ -52,7 +52,6 @@ body{
 #header {
   background: #ffffff;
   position: relative;
-  top: 0;
   width: 100%;
   box-shadow: 0 1px 3px 2px #dbdbdb
 }
@@ -66,8 +65,7 @@ body{
 }
 
 .writing-container {
-  position: relative;
-  top: 50px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -84,8 +82,9 @@ body{
 }
 
 .copy-container{
-  position: relative;
-  top: 60px;
+/*  position: relative;
+  top: 60px;*/
+  margin-top: 15px;
 }
 
 .copy{
@@ -100,14 +99,13 @@ body{
 }
 
 .hero-container{
-  position: relative;
-  top: 110px;
-  padding-bottom: 100px;
+  margin-top: 40px;
+  /*padding-bottom: 100px;*/
 }
 
-.hero-container > img{
+/*.hero-container > img{
   width: 100%;
-}
+}*/
 
 .found-container{
   position: relative;
@@ -185,6 +183,7 @@ body{
 
 footer{
   position: relative;
+  height: 125px;
 }
 
 footer > img{
