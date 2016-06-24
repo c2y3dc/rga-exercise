@@ -179,11 +179,11 @@ body{
 }
 
 footer{
-  position: relative;
+  margin: 60px;
   height: 125px;
-
-  & > img{
-    width: 100%;
+  width: 100%;
+  & > div{
+    display: inline;
   }
 }
 
